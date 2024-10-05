@@ -16,16 +16,14 @@ const studentDB = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'Nidhin@123',
-  database: 'students_db',
-  port: 3306
+  database: 'students_db'
 });
 
 const principalDB = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'Nidhin@123',
-  database: 'principal_db',
-  port: 3306
+  database: 'principal_db'
 });
 
 studentDB.connect(err => {
